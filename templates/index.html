@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/base.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='css/game.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='css/ui.css')}}" />
+  </head>
+  <body>
+    <div class="game-container">jogo</div>
+    <div class="ui-container">
+      
+      <!-- User Panel -->
+      {% include "ui/user_panel.html" %}
+
+      <!-- Selected enemy-->
+      {% include "ui/enemy_panel.html" %}
+
+      <!-- Chat-->
+      {% include "ui/chat.html" %}
+      <!-- Itens shortcut-->
+
+      <!-- Menu (inventory, market, map, etc)-->
+    </div>
+  </body>
+</html>

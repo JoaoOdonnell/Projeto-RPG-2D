@@ -1,0 +1,29 @@
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtualenvs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Configurações locais
+*.log
+*.pot
+*.pyproj
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.iml

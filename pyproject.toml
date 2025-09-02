@@ -1,0 +1,17 @@
+[project]
+name = "projeto-rpg-2d"
+version = "0.1.0"
+description = "RPG 2D em Python com FastAPI"
+authors = [
+    {name = "João Neto",email = "talaiajoao211@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard] (>=0.116.1,<0.117.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
