@@ -1,10 +1,10 @@
 .stats-bar{
     width: 100%;
-    height: 20px;
     margin-bottom: 5px;
     border: 1px solid black;
     padding: 2px;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 /* User Panel */
@@ -12,7 +12,7 @@
     position: fixed;
     top: 10px;
     left: 10px;
-    height: 100px;
+    padding: 10px;
 }
 
 .user-panel .stats-bar.hp{
@@ -46,9 +46,71 @@
    position: fixed;
    bottom: 20px;
    left: 10px;
-   width: 300px;
+   width: 400px;
 }
 
-.chat-messages{
+.chat-panel .chat-messages{
+    height: 100px;
+    overflow-y: auto;
     margin: 1rem 0rem;
+}
+
+.input input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Itens Shortcut Panel */
+
+.ui-card.itens-shortcut-panel{
+    padding: 0;
+}
+
+.itens-shortcut-panel{
+    position: fixed;
+    bottom: 20px;
+    right: calc(50% - 200px);
+    width: 400px;
+}
+
+.itens-shortcut-panel .slot{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+/* Menu Panel */
+
+.menu-panel{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 400px;
+}
+
+.ui-card.menu-panel{
+    padding: 0;
+}
+
+.menu-panel .slot{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
