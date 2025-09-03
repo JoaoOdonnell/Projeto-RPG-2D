@@ -1,0 +1,11 @@
+/* Enemy Panel */
+.enemy-panel{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 100px;
+}
+
+.enemy-panel .stats-bar.hp{
+    background-color: #f44336;
+}

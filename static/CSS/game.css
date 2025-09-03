@@ -1,16 +1,35 @@
-.game-container, .ui-container{
+.floor {
   position: fixed;
+  bottom: 0;
   left: 0;
-  top: 0;
+  height: 300px;
   width: 100%;
-  height: 100%;  
+  background-color: rgb(160, 79, 25);
 }
 
-.game-container{
-    background-color: black;
-    z-index: 1;
+.entity {
+  position: fixed;
+  bottom: 275px;
+  font-size: 200px;
 }
 
-.ui-container{
-    z-index: 2;
+.player {
+  left: 300px;
+}
+
+.enemy {
+  right: 300px;
+  animation: move-enemy 2s linear infinite;
+}
+
+@keyframes move-enemy {
+  0% {
+    bottom: 280px;
+  }
+  50% {
+    bottom: 275px;
+  }
+  100% {
+    bottom: 280px;
+  }
 }

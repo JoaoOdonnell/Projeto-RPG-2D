@@ -4,14 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RPG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="{{ url_for('static', path='css/base.css')}}" />
     <link rel="stylesheet" href="{{ url_for('static', path='css/game.css')}}" />
-    <link rel="stylesheet" href="{{ url_for('static', path='css/ui.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='css/UI-CSS/user_panel.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='css/UI-CSS/enemy_panel.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='css/UI-CSS/chat_panel.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='css/UI-CSS/itens_shorcut.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='css/UI-CSS/menu.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='css/UI-CSS/general-ui.css')}}" />
   </head>
   <body>
-    <div class="game-container">jogo</div>
+    <div class="game-container">
+      <!-- gameame -->
+      {% include "game/game.html" %}
+    </div>
+
     <div class="ui-container">
-      
       <!-- User Panel -->
       {% include "ui/user_panel.html" %}
 
@@ -25,7 +39,7 @@
       {% include "ui/itens_shorcut.html" %}
 
       <!-- Menu (inventory, market, map, etc)-->
-       {% include "ui/menu.html" %}
+      {% include "ui/menu.html" %}
     </div>
   </body>
 </html>

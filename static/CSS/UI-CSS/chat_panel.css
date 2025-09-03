@@ -1,0 +1,28 @@
+/* Chat Panel */
+.chat-panel {
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  width: 400px;
+}
+
+.chat-panel .message {
+  font-size: 13px;
+}
+
+.chat-panel .message .user-name {
+  font-weight: bold;
+}
+
+.chat-panel .chat-messages {
+  height: 100px;
+  overflow-y: auto;
+  margin: 1rem 0rem;
+}
+
+.input input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}

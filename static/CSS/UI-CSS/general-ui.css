@@ -1,0 +1,39 @@
+.stats-bar {
+  width: 100%;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.user-panel .stats-bar.hp {
+  background-color: #f44336;
+}
+
+.user-panel .stats-bar.mana {
+  background-color: #2196f3;
+}
+
+.user-panel .stats-bar.exp {
+  background-color: #ffeb3b;
+}
+
+.slot {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.slot:hover {
+  border-color: #2196f3;
+  background-color: #c6e4fd;
+}

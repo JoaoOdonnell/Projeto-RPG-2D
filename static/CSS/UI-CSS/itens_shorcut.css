@@ -1,0 +1,12 @@
+/* Itens Shortcut Panel */
+
+.ui-card.itens-shortcut-panel{
+    padding: 0;
+}
+
+.itens-shortcut-panel{
+    position: fixed;
+    bottom: 20px;
+    right: calc(50% - 200px);
+    width: auto;
+}
