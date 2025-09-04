@@ -40,8 +40,7 @@ body {
 }
 
 /* Base game UI */
-.game-container,
-.ui-container {
+.game-container {
   position: fixed;
   left: 0;
   top: 0;
@@ -54,6 +53,18 @@ body {
   z-index: 1;
 }
 
-.ui-container {
+.ui-container-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.ui-container-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   z-index: 2;
 }

@@ -7,15 +7,19 @@
   font-size: 20px;
 }
 
-.user-panel .stats-bar.hp {
+.stats-bar.hp {
+  background-color: #ffffff;
+}
+
+.stats-bar-fill.hp {
   background-color: #f44336;
 }
 
-.user-panel .stats-bar.mana {
+.stats-bar.mana {
   background-color: #2196f3;
 }
 
-.user-panel .stats-bar.exp {
+.stats-bar.exp {
   background-color: #ffeb3b;
 }
 
