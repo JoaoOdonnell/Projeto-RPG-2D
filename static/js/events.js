@@ -1,3 +1,3 @@
 document.querySelector(".entity.enemy").addEventListener("mousedown", (e) => {
-  attackEnemy();
+  window.player.attack(window.enemy);
 });

@@ -13,6 +13,7 @@
 
 .stats-bar-fill.hp {
   background-color: #f44336;
+  transition: width 0.3s ease-in-out;
 }
 
 .stats-bar.mana {

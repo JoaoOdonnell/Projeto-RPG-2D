@@ -4,7 +4,7 @@
   left: 0;
   height: 300px;
   width: 100%;
-  background-color: rgb(160, 79, 25);
+  background-color: #153f4a;
 }
 
 .entity {
@@ -20,6 +20,7 @@
 .enemy {
   right: 300px;
   animation: move-enemy 2s linear infinite;
+  cursor: pointer;
 }
 
 @keyframes move-enemy {

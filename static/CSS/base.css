@@ -42,6 +42,7 @@ body {
 /* Base game UI */
 .game-container {
   position: fixed;
+  background-image: url("../img/background.png");
   left: 0;
   top: 0;
   width: 100%;
